@@ -236,36 +236,42 @@
                 </div>
             </div>
             
-            <h3 class="subsection-title">其他项目 Other Projects</h3>
+            <h3 class="subsection-title">AI Agent 系统</h3>
+            <p class="project-tech">聚焦多智能体协作与智能分身代理类项目，涵盖基于大模型 Agent 框架构建的多智能体协作系统，以及通过规则引擎或记忆增强机制实现的高并发场景 AI 代理。体现了我在大模型 Agent 架构设计、状态管理与系统稳定性上的工程能力。</p>
             <div class="project-list">
                 <div class="project-item">
                     <p class="project-title"><strong>BingFu 兵符 - 轻量级多智能体框架</strong></p>
                     <p class="project-tech"><strong>技术栈：</strong>Python 3.9+ / Pydantic / PyYAML / LangChain / LangGraph / RAG / FAISS / OpenAI API / pytest</p>
-                    <p class="project-tech"><strong>项目内容：</strong>以中国古代军事思想为隐喻的轻量级 Multi-Agent 开发框架。将多 Agent 协作建模为古代军队作战，将每个 Agent 赋予特定"将军"的战术风格，通过孙子兵法的战术原则协调指挥，最终完成任务。支持单 Agent 和多 Agent 系统，采用"击鼓"(启动)和"鸣金"(停止)信号进行控制流程，集成孙子兵法战术引擎、历史名将 Agent 和五维战力评估体系。v0.6.0 新增 LangChain 集成，支持 RAG 检索增强、多种记忆模式（Buffer/Summary/Window/Vector）和向量存储检索。</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向 AI 应用开发者打造的轻量级多智能体协作框架，以中国古代军事思想为隐喻，将多 Agent 协作建模为军队作战体系，降低 Multi-Agent 系统从理论到工程实现的门槛。<br>• 集成孙子兵法战术引擎、历史名将 Agent 库与五维战力评估体系（攻击力/防御力/谋略值/速度/智力），通过「击鼓」「鸣金」信号统一控制流程；设有LangChain 集成模块，支持 RAG 检索增强与 Buffer/Summary/Window/Vector 四种记忆模式及 FAISS 向量存储。<br>• 配套可视化军情控制台（MilitaryCommandConsole）与 70+ 测试用例（pytest），提供单 Agent 编排、多 Agent 协同、Commander 智能派兵三类开箱即用范式，已发布智能派兵系统与LangChain集成两个版本，持续迭代中。</p>
                     <p class="project-tech">
                         <strong>链接：</strong><a href="https://github.com/luke99810/bingfu" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
                     </p>
                 </div>
                 <div class="project-item">
-                    <p class="project-title"><strong>CleanRead 净文 - 网页文章智能排版导出工具</strong></p>
-                    <p class="project-tech"><strong>技术栈：</strong>React 18 / TypeScript / Express 4 / Vite 5 / Ant Design 5 / JSDOM / PDFKit / Turndown</p>
-                    <p class="project-tech"><strong>项目内容：</strong>解决网页文章打印/PDF 导出时排版混乱的问题。基于 Mozilla Readability 算法智能提取网页正文，自动去除广告、导航栏等干扰内容，支持微信公众号、博客园、CSDN 等主流平台。提供多种排版模板，支持一键导出为精美 PDF 或 Markdown 文件。前后端分离架构，Monorepo 管理。</p>
+                    <p class="project-title"><strong>混元岛 - AI 分身社交平台</strong></p>
+                    <p class="project-tech"><strong>技术栈：</strong>HTML5 / CSS3 / JavaScript / LocalStorage / 规则引擎</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向 Z 世代用户打造的「人 + AI 分身」混合社交平台，入选腾讯 AI 产品创造营；通过 AI 破冰官、智能消息分流与记忆增强系统，缓解信息过载、维护社交隐私并平衡社交效率。<br>• 基于自研规则引擎与领域模板库生成个性化评论，LocalStorage 持久化用户与分身交互记录并构建关系图谱，采用三档优先级 + 关键词匹配实现消息智能分流，支持多分身创建、人格配置与在线状态管理。<br>• 纯前端零后端实现，零依赖部署与秒级冷启动；入选腾讯 AI 产品创造营评审验证产品形态，已支持多主题创作灵感卡片与社交多场景适配，为新时代人机共存社交形态提供参考。</p>
                     <p class="project-tech">
-                        <strong>链接：</strong><a href="https://github.com/luke99810/CleanRead" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
+                        <strong>链接：</strong><a href="https://github.com/luke99810/Hunyuandao" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
                     </p>
                 </div>
                 <div class="project-item">
-                    <p class="project-title"><strong>AutoFormat - 智能文档排版助手</strong></p>
-                    <p class="project-tech"><strong>技术栈：</strong>React 18 / TypeScript / Vite 5 / docx.js / Ant Design 5</p>
-                    <p class="project-tech"><strong>项目内容：</strong>面向学生和职场人士的一键文档排版工具。支持直接粘贴文本或上传 .docx 文件，AI 自动识别标题层级（「第X章」、「1.1」、「一、」等格式），内置 6 种预设排版模板（学位论文、商业计划书、课程作业、政府公文、科研论文、自定义），实时预览所见即所得，一键导出标准 .docx 文件兼容 WPS/Word。</p>
+                    <p class="project-title"><strong>AI-Interview - AI 面试智能备考系统</strong></p>
+                    <p class="project-tech"><strong>技术栈：</strong>Python 3.9+ / FastAPI / LangChain / DeepSeek / OpenAI / ChromaDB / RAG / CodeMirror / Chart.js / Uvicorn</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向 AI 算法 / 应用工程师的智能备考与多 Agent 模拟面试系统，通过 5 阶段递进式学习路径，从基础认知到工程化实践，系统化提升大厂考核通过率，题库覆盖头部科技企业真题。<br>• 基于 LangChain 接入 DeepSeek / OpenAI 实现主观题智能评判与改进建议，融合 ChromaDB + RAG 检索增强构建 AI 变异出题引擎（生成相似但不同的变体题，杜绝死记硬背），集成 CodeMirror 在线编程 + Python 沙盒执行，配套 Chart.js 学习数据可视化。<br>• 已沉淀不同难度的超过500道 题目，支持全屏机考模式（倒计时、随机组卷、自动判分）与可交互成绩单，帮助求职者进行多轮流程演练。</p>
                     <p class="project-tech">
-                        <strong>链接：</strong><a href="https://github.com/luke99810/AutoFormat" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
+                        <strong>链接：</strong><a href="#" target="_blank">[暂不开源]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
                     </p>
                 </div>
+            </div>
+            
+            <h3 class="subsection-title">Skills 应用</h3>
+            <p class="project-tech">封装特定领域的 AI 能力为可复用技能类项目，涵盖将大模型能力工程化为独立 Skill 入口，应用于视频自动生成、模拟面试、科研写作等垂直场景。展示了将 AI 能力转化为具体业务功能的产品化思维与端到端交付能力。</p>
+            <div class="project-list">
                 <div class="project-item">
                     <p class="project-title"><strong>Html2Video - AI 教学视频自动制作</strong></p>
                     <p class="project-tech"><strong>技术栈：</strong>HyperFrames / GSAP / HTML5 / CSS3 / KaTeX / TTS / 文本转视频</p>
-                    <p class="project-tech"><strong>项目内容：</strong>基于 HyperFrames + GSAP 的 AI 教学视频自动化制作平台。将 AI 基础知识（线性代数、机器学习、大模型原理等）转化为高质量的可视化教学视频，实现「脚本→动画→配音→视频」全流程自动化。涵盖科技教育风格的视觉设计规范（深色背景+数据可视化元素），支持公式动画渲染、场景过渡和语音合成。已产出 AI 数学基础、LLM Transformer 教程、Python AI 教程等系列视频。</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向 AI 知识科普场景的 AI 教学视频自动化制作平台，将用户输入的要求领域知识一键转化为高质量可视化教学视频，打通「脚本 → 动画 → 配音 → 视频」全流程自动化，显著降低视频化教学的生产门槛。<br>• 基于 HyperFrames HTML 视频合成框架 + GSAP 动画引擎实现精细化场景控制，集成 KaTeX 完成数学公式动画渲染、TTS 完成语音合成、预置深色科技教育风格设计规范（配色 / 排版 / 动效 / 转场 / 字幕模板），并提供 hyperframes-cli / hyperframes-registry / website-to-hyperframes 工具链支持。<br>• 已支持 30 fps / 60 fps 多档输出质量（draft / standard / high），沉淀 AI 领域系列视频模板化生产能力，单条视频从脚本到成片可全流程无人值守完成，相比原Skill提升约20%。</p>
                     <p class="project-tech">
                         <strong>链接：</strong><a href="https://github.com/luke99810/Html2Video" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
                     </p>
@@ -273,47 +279,68 @@
                 <div class="project-item">
                     <p class="project-title"><strong>AIOffer-Research - AI 智能模拟面试系统</strong></p>
                     <p class="project-tech"><strong>技术栈：</strong>Python / HTML5 / CSS3 / JavaScript / 正则表达式 / 简历解析引擎</p>
-                    <p class="project-tech"><strong>项目内容：</strong>AI 岗位智能模拟面试系统。给定一份简历，自动生成四轮结构化面试（技术面/项目深挖/系统设计/HR面），输出可交互 HTML 页面，含参考回答、盲区标记、进度追踪。采用多维出题引擎（简历深挖40%+岗位匹配30%+基础能力20%+综合素质10%），实现针对性面试训练。</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 简历驱动的 AI 岗位智能模拟面试系统，上传简历即可自动生成「技术面 / 项目深挖 / 系统设计 / HR 面」四轮结构化面试，输出可交互 HTML 页面（含参考回答、盲区标记、进度追踪），让候选人「以练代背」、告别八股文式准备。<br>• 自研简历解析引擎（正则 + 能力画像映射）抽取项目/技能/论文/实习等高价值信息，多维出题算法按「简历深挖 40% + 岗位匹配 30% + 基础能力 20% + 综合素质 10%」权重生成针对性问题，配套三档评分标准与面试总结能力。<br>• 单次模拟自动产出 35-45 道题，参考回答默认折叠，键盘快捷键支持 ←/→ 切题、空格展开答案、B 标记盲区、S 查看总结、1-4 切换面试轮次，模拟真实面试官视角下的针对性训练。</p>
                     <p class="project-tech">
                         <strong>链接：</strong><a href="https://github.com/luke99810/AIOffer-Research" target="_blank">[Github]</a>
                     </p>
                 </div>
                 <div class="project-item">
-                    <p class="project-title"><strong>EasyTranslate - 学术PDF翻译工具</strong></p>
-                    <p class="project-tech"><strong>技术栈：</strong>React 18 / Vite / TailwindCSS / Zustand / Python 3.10 / FastAPI / PyMuPDF / Docker Compose</p>
-                    <p class="project-tech"><strong>项目内容：</strong>面向科研人员打造的专业学术PDF翻译工具，主打英文论文译中并完整保留原版排版样式。集成DeepL、Google、OpenAI等多主流翻译引擎，支持水平、垂直双模式双语对照阅读；智能精准识别LaTeX公式并隔离保护，杜绝翻译错乱公式内容。支持翻译结果一键导出为PDF、Word格式，采用前后端分离架构，依托Docker Compose实现轻量化一键部署，适配学术高频阅读与文献整理需求。</p>
-                    <p class="project-tech">
-                        <strong>链接：</strong><a href="https://github.com/luke99810/EasyTranslate" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
-                    </p>
-                </div>
-                <div class="project-item">
-                    <p class="project-title"><strong>混元岛 - AI 分身社交平台</strong></p>
-                    <p class="project-tech"><strong>技术栈：</strong>HTML5 / CSS3 / JavaScript / LocalStorage / 规则引擎</p>
-                    <p class="project-tech"><strong>项目内容：</strong>面向Z世代打造的创新「人+AI分身」混合社交平台，入选腾讯AI产品创造营。核心功能包括AI破冰官（基于规则引擎生成个性化评论）、记忆增强系统（基于LocalStorage的交互记忆管理）、智能消息分流（三档优先级分类）、分身代理机制（多分身创建与状态管理）以及创作灵感生成，探索未来AI社交全新形态。</p>
-                    <p class="project-tech">
-                        <strong>链接：</strong><a href="https://github.com/luke99810/Hunyuandao" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
-                    </p>
-                </div>
-                <div class="project-item">
-                    <p class="project-title"><strong>PicCraft - AI 智能图片编辑器</strong></p>
-                    <p class="project-tech"><strong>技术栈：</strong>React / TypeScript / Canvas API / TailwindCSS</p>
-                    <p class="project-tech"><strong>项目内容：</strong>面向个人用户与内容创作者打造的在线轻量化AI图片编辑工具。涵盖亮度、对比度、DPI调整等基础图像调节功能，集成智能抠图、画质增强、AI创意生成等高阶编辑能力，主打零门槛操作、快速出图的使用体验。采用Web端优先响应式设计，适配社交媒体创作、电商图文制作等多元应用场景，满足日常图片快速处理需求。</p>
-                    <p class="project-tech">
-                        <strong>链接：</strong><a href="https://github.com/luke99810/PicCraft" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
-                    </p>
-                </div>
-                <div class="project-item">
                     <p class="project-title"><strong>ScholarFlow - 一站式AI科研辅助系统</strong></p>
                     <p class="project-tech"><strong>技术栈：</strong>Python / Streamlit / OpenAI API / DeepSeek API / pandas / numpy / matplotlib / scikit-learn / reportlab / python-pptx / Nature Skills</p>
-                    <p class="project-tech"><strong>项目内容：</strong>端到端学术论文生成系统，只需上传数据和研究思路，即可自动完成数据探索与统计分析、可视化图表生成（Nature配色）、多源文献检索与引用管理、数学建模与实验验证、论文撰写、PDF文档导出全流程。同时提供独立Skill入口，支持论文精读（PDF/DOI解析生成中英对照笔记）、PPT生成、审稿回复、Data可用性声明生成等单项任务，模块化设计便于扩展。</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 端到端一站式 AI 科研辅助系统，面向AI4Science，只需上传数据 + 填写研究思路，即可自动完成数据分析、可视化、文献检索、论文撰写、PDF 导出的全流程，帮助科研工作者确定数据可用性和撰写初步框架。<br>• 基于 LangChain + DeepSeek / OpenAI +Nature Skills驱动从数据分析到建模最后产出论文的 10 步流水线，matplotlib 渲染 Nature 配色专业图表，集成多源文献检索与 BibTeX 引用管理、reportlab / python-pptx 一键导出。<br>• 流水线单次运行可输出 Markdown 源稿 + PDF 终稿 + 引用图表包，模块化 Skill 入口支持论文精读（PDF/DOI 解析生成中英对照笔记）、PPT 生成、审稿回复、Data 可用性声明等单点任务，可独立调用、按需组合。</p>
                     <p class="project-tech">
                         <strong>链接：</strong><a href="https://github.com/luke99810/scholarflow" target="_blank">[Github]</a>
                     </p>
                 </div>
                 <div class="project-item">
+                    <p class="project-title"><strong>Dataset-Generator - 高质量合成数据集生成工具</strong></p>
+                    <p class="project-tech"><strong>技术栈：</strong>Python 3.10+ / Pydantic / pandas / numpy / PyArrow / openpyxl / pdfplumber / python-docx / pytest / ruff / GitHub Actions</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向机器学习、深度学习、RAG 系统与科研原型场景的专业级合成数据集生成工具包，覆盖「文献特征发现 → Schema 构造 → 数据生成 → 质量验证 → GitHub 项目输出」完整生命周期，让研究者加速数据准备从而专注方法本身。<br>• 初步内置 6 大领域模板共 60+ 预定义特征，Schema 驱动（JSON/YAML）支持确定性可复现生成，时序生成器内置趋势 / 季节 / 周期 / 噪声四项注入；支持 PDF / Word / Markdown 文档自动提取数据模式，RAG 模式同步产出文档 + QA 对 + 多轮对话，并提供 4 维质量验证（完整性 / 一致性 / 分布 / 格式）输出 Markdown 报告。<br>• 支持 CSV / JSON / Parquet / Excel / JSONL 多格式输出，单次可生成 5,000–100,000+ 条记录，配 CI 工作流与 ruff 代码规范，一键产出 GitHub-Ready 项目结构（README + 数据字典 + Schema 文档 + 复现脚本）。</p>
+                    <p class="project-tech">
+                        <strong>链接：</strong><a href="https://github.com/luke99810/Dataset-Generator" target="_blank">[Github]</a>
+                    </p>
+                </div>
+            </div>
+            
+            <h3 class="subsection-title">实用辅助工具</h3>
+            <p class="project-tech">面向文档处理、内容转换、图片编辑与系统工具等场景的实用辅助类项目，涵盖 PDF 翻译与排版、网页内容提取、AI 图片编辑、公式渲染转换、桌面锁屏防护等方向。体现了扎实的前端、客户端及工程落地能力。</p>
+            <div class="project-list">
+                <div class="project-item">
+                    <p class="project-title"><strong>PicCraft - AI 智能图片编辑器</strong></p>
+                    <p class="project-tech"><strong>技术栈：</strong>React / TypeScript / Canvas API / TailwindCSS</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向个人用户与内容创作者的在线轻量化 AI 图片编辑工具，主打零门槛操作与快速出图，覆盖日常亮度 / 对比度 / DPI 调整等基础处理以及智能抠图、画质增强、AI 创意生成等高阶能力，降低非专业用户图片处理门槛。<br>• 基于 React + TypeScript + Canvas API 实现端侧高性能图像处理流水线，集成 TailwindCSS 构建响应式 Web 界面，优先 Web 端设计并适配手机 / 平板 / PC 多端，兼容 Vercel / Netlify / GitHub Pages 一键部署。<br>• 单次操作可在秒级完成出图，覆盖社交媒体创作（小红书 / 公众号封面）、电商图文（详情页 / 主图）、日常修图（证件照 / 表情包）等多类高频场景。</p>
+                    <p class="project-tech">
+                        <strong>链接：</strong><a href="https://github.com/luke99810/PicCraft" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
+                    </p>
+                </div>
+                <div class="project-item">
+                    <p class="project-title"><strong>EasyTranslate - 学术PDF翻译工具</strong></p>
+                    <p class="project-tech"><strong>技术栈：</strong>React 18 / Vite / TailwindCSS / Zustand / Python 3.10 / FastAPI / PyMuPDF / Docker Compose</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向科研人员的专业学术 PDF 翻译工具，主打「英文论文译中 + 完整保留原版排版」，解决 DeepL / Google 直译 LaTeX 公式错乱、双语对照阅读不便等长期痛点，显著提升英文学术文献阅读与整理效率。<br>• 前端基于 React 18 + Vite + TailwindCSS + Zustand 构建，后端基于 FastAPI + PyMuPDF 解析 PDF 文档；智能识别并隔离 LaTeX 公式（避免翻译破坏数学表达式），支持水平 / 垂直两种双语对照模式与 PDF / Word 一键导出，依托 Docker Compose 实现前后端一键部署。<br>• 集成 DeepL / Google / OpenAI 多家主流翻译引擎，可按需切换并对比译文质量；处理一份 10-30 页的学术 PDF 通常可在分钟级完成，输出可二次编辑的 Word 与排版 1:1 还原的 PDF ，目前排版有待优化</p>
+                    <p class="project-tech">
+                        <strong>链接：</strong><a href="https://github.com/luke99810/EasyTranslate" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
+                    </p>
+                </div>
+                <div class="project-item">
+                    <p class="project-title"><strong>CleanRead 净文 - 网页文章智能排版导出工具</strong></p>
+                    <p class="project-tech"><strong>技术栈：</strong>React 18 / TypeScript / Express 4 / Vite 5 / Ant Design 5 / JSDOM / PDFKit / Turndown</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 一站式解决「网页文章打印 / 转 PDF 时排版混乱、夹带广告」痛点的智能排版导出工具，支持微信公众号、CSDN、博客园、知乎、掘金等主流平台，一键将网页正文导出为精美 PDF 或 Markdown，显著提升长文归档与再编辑效率。<br>• 后端基于 Express 4 + JSDOM + Mozilla Readability 算法精准提取网页正文并自动去除广告 / 导航栏 / 推荐位，前端基于 React 18 + TypeScript + Vite 5 + Ant Design 5 提供 WYSIWYG 编辑器与多套排版模板，集成 PDFKit / Turndown 完成 PDF / Markdown 双格式导出。<br>• 采用 Monorepo 架构（packages/server + packages/web + packages/shared）前后端解耦，支持单篇文章秒级解析与导出，提供多套排版模板并预留自定义扩展点，适合科研 / 技术写作 / 自媒体内容整理等高频场景。</p>
+                    <p class="project-tech">
+                        <strong>链接：</strong><a href="https://github.com/luke99810/CleanRead" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
+                    </p>
+                </div>
+                <div class="project-item">
+                    <p class="project-title"><strong>AutoFormat - 智能文档排版助手</strong></p>
+                    <p class="project-tech"><strong>技术栈：</strong>React 18 / TypeScript / Vite 5 / docx.js / Ant Design 5</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向学生与职场人士的一键智能文档排版工具，解决「手写论文 / 报告 / 公文格式反复调整」痛点，粘贴文本或上传 .docx 即可自动识别标题层级并套用专业模板，告别逐行手动调字号行距的繁琐工作。<br>• 基于 React 18 + Vite 5 + docx.js 实现纯前端解析与生成，AI 规则引擎自动识别「第 X 章 / 1.1 / 一、 / （1）」等中英文标题模式，初步集成 6 套预设模板，可自定义预设，并支持字体、字号、行距、页边距、页眉页脚细粒度配置。<br>• 实时预览所见即所得，一键导出标准 .docx 完美兼容 WPS / Microsoft Word，单份文档从导入到成稿通常可在一分钟内完成，模板可自定义扩展。</p>
+                    <p class="project-tech">
+                        <strong>链接：</strong><a href="https://github.com/luke99810/AutoFormat" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
+                    </p>
+                </div>
+                <div class="project-item">
                     <p class="project-title"><strong>MathFlow - AI 内容公式转换器</strong></p>
                     <p class="project-tech"><strong>技术栈：</strong>HTML5 / JavaScript / KaTeX / mammoth.js</p>
-                    <p class="project-tech"><strong>项目内容：</strong>面向学术写作和笔记场景的数学公式渲染工具。支持粘贴文本、上传 Markdown 和 Word 文档，自动识别并渲染多种数学公式格式（行内公式 $...$、块级公式 $$...$$、括号格式 \(...)、环境格式 \begin{equation} 等），提供实时预览、一键复制为 Markdown/HTML 格式，无缝融入思源笔记等笔记工具。纯前端实现，零依赖部署。</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 面向学术写作与笔记场景的数学公式智能转换工具，解决「Word / Markdown 写公式排版错乱、不同笔记软件不兼容」痛点，让数学公式在思源笔记、Typora、Notion 等多平台无缝正确显示。<br>• 纯前端实现，集成 KaTeX 引擎完成毫秒级公式渲染，mammoth.js 解析 Word 文档提取公式原文，正则规则覆盖 4 种公式格式（行内 $...$、块级 $$...$$、括号 \(...\) / \[...\]、环境 \begin{equation}），支持粘贴文本 / 上传 Markdown / 上传 Word 三种输入方式。<br>• 实时预览 + 一键复制为 Markdown / HTML / 下载 .md 文件，响应式设计适配 PC / 平板 / 手机，无后端依赖、双击即可使用，零成本嵌入任何笔记 / 写作工作流,效果优于目前大多数平台。</p>
                     <p class="project-tech">
                         <strong>链接：</strong><a href="https://github.com/luke99810/MathFlow" target="_blank">[Github]</a> | <a href="#" target="_blank">[Website暂未上线]</a>
                     </p>
@@ -321,7 +348,7 @@
                 <div class="project-item">
                     <p class="project-title"><strong>SafeLock - 桌面锁屏防护工具</strong></p>
                     <p class="project-tech"><strong>技术栈：</strong>Python 3.11+ / tkinter / ctypes / Win32 API / pystray / Pillow / hashlib / PyInstaller</p>
-                    <p class="project-tech"><strong>项目内容：</strong>专为Windows平台开发的轻量级桌面锁屏工具，锁定屏幕与键鼠输入设备，保持后台程序持续运行，支持密码解锁。采用全局全屏遮罩方案，无需切换用户会话，后台任务不受影响；通过底层系统钩子拦截鼠标操作与系统快捷键，屏蔽Win键、Alt+Tab、Alt+F4等快捷操作。程序常驻系统托盘，支持右键一键锁屏、修改密码与退出程序；密码采用SHA-256哈希加密存储，无明文留存，配置持久化生效，重启设备后依旧保留，兼顾实用性与本地使用安全性，适合办公场景防误触、临时设备托管使用。</p>
+                    <p class="project-tech"><strong>项目内容：</strong><br>• 专为 Windows 平台设计的轻量级桌面锁屏防护工具，临时离开工位时一键锁屏并保持后台训练 / 渲染任务持续运行，兼顾隐私安全管控与程序连续运行需求，适合办公防泄密、设备临时托管、自习室占位等高频使用场景。<br>• 基于 tkinter + Win32 API + ctypes 实现全局全屏遮罩 + 底层系统钩子，pystray 接入系统托盘支持一键锁屏 / 改密 / 退出，hashlib + SHA-256 加密存储密码（无明文留存），PyInstaller 打包为单文件 EXE。<br>• 屏蔽 Win 键、Alt+Tab、Alt+F4、Esc 等系统级快捷操作，仅密码解锁可解除；配置持久化生效，重启设备后密码与设置依旧保留，单文件 < 10MB，老旧 Windows 设备也能流畅运行。</p>
                     <p class="project-tech">
                         <strong>链接：</strong><a href="https://github.com/luke99810/Safe_Lock" target="_blank">[Github]</a>
                     </p>
